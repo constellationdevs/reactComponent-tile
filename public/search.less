@@ -1,0 +1,433 @@
+@import "variables";
+
+@focusColor: @blue;
+@primaryTileColor : @primaryThemeColor;
+
+#SearchPage {
+    .cdp_page_container {
+      position: static;
+  
+      &.filter-open {
+        overflow: hidden !important;
+      }
+    }
+  
+    .filter-mask {
+      background-color: @darkGrey;
+      height: 100%;
+      width: 100%;
+      opacity: 0.5;
+      position: fixed;
+      z-index: 1;
+    }
+  
+    #SearchHeroContainer {
+      min-height: 60px;
+      background-color: @white;
+      z-index: 9;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      display: block;
+      margin: auto;
+  
+      .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+      }
+  
+      .search-toolbar {
+        max-width: 600px;
+
+        .remove-search-text {
+            position: absolute;
+            right: 24px;
+            color: rgba(38, 50, 61, 0.3);
+            font-size: 18px;
+            z-index: 1;
+            height: 20px;
+            width: 13px;
+
+            .remove-search-text-icon {
+                align-items: center;
+                display: inline-flex;
+                height: 20px;
+                justify-content: center;
+                padding: 1px 0 0 1px;
+                width: 20px;
+                color: fade(@lightBlack, 50%);
+
+                &.background {
+                    color: @white;
+                }
+
+                &:focus {
+                    box-shadow: 0 0 0 2px @focusColor;
+                    border-radius: 3px;
+                    z-index: 1;
+                }
+            }
+        }
+      }
+  
+      .search-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 36px;
+        width: 80px;
+        margin: 0 8px;
+        color: @white;
+        background-color: @primaryTileColor;
+      }
+      .filter-button {
+        height: 36px;
+        width: 36px;
+        margin: 0;
+        border: 1px solid @primaryTileColor;
+        flex: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ons-icon {
+            font-size: 22px;
+            color: @primaryTileColor;
+        }
+  
+        &.active {
+            background-color: @primaryTileColor;
+
+            ons-icon {
+                color: @white;
+            }
+        }
+      }
+  
+      .search-toolbar ons-search-input {
+        background-color: fade(@darkGrey, 30%);
+        border-radius: 4px;
+      }
+      .search-toolbar ons-search-input .search-input {
+        font-size: 16px;
+        width: 88%;
+        height: 36px !important;
+        padding: 0 9px !important;
+        background-color: transparent;
+
+        ons-button:focus {
+          box-shadow: 0 0 0 2px @focusColor;
+          border-radius: 8px;
+        }
+      }
+    
+  
+      // end fix
+  
+      #filterBarContainer {
+        text-align: center;
+        padding: 9px;
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        background-color: @mediumGrey;
+  
+        ons-button {
+          background-color: @white;
+          color: @lightBlack;
+          margin: 0 6px;
+          height: 32px;
+          padding-top: 0;
+          box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  
+          img {
+            width: 22px;
+          }
+  
+          ons-icon {
+            font-size: 22px;
+          }
+  
+          &.selected {
+            background-color: @lightBlack;
+            color: @white;
+  
+            ons-icon {
+              color: @white;
+            }
+          }
+        }
+      }
+  
+      #pillContainer {
+        //height: 40px;
+        position: relative;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: normal;
+        padding: 0px 18px 12px 18px;
+        background-color: @white;
+        margin: 0 auto;
+        max-width: 600px;
+  
+        ons-button {
+          background-color: @primaryTileColor;
+          border: none;
+          color: @white;
+          padding: 0 10px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 2px 2px;
+          border-radius: 16px;
+          height: auto;
+          font-size: 10px;
+          font-weight: bold;
+  
+
+          .fa-stack {
+            font-size: 15px;
+            width: 22px;
+
+            .remove-pill {
+                padding-left: 10px;
+                color: fade(@lightBlack, 50%);
+    
+                &.background {
+                    color: @white;
+                }
+            }
+          }
+        }
+      }
+    }
+  
+    .filterSelectionContainer {
+      margin: auto;
+      max-width: 600px;
+      background-color: #AAB1B8;
+      color: #25323D;
+      padding: 18px;
+      position: fixed;
+      top: 80px;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  
+      label {
+        display: block;
+      }
+  
+      .inputContainer {
+        padding-bottom: 18px;
+  
+        .react-datepicker-wrapper {
+          width: 100%;
+  
+          .react-datepicker__input-container {
+            width: 100%;
+  
+            input {
+              background: @lightGrey;
+              width: 100%;
+            }
+          }
+        }
+      }
+  
+      .btnAction {
+        width: 48%;
+        background-color: @primaryThemeColor;
+      }
+  
+      .btnAction:nth-last-child(1) {
+        margin-left: 9px;
+        float: right;
+      }
+  
+      .btnAction:only-of-type {
+        width: 100%;
+        margin: 0;
+        float: none;
+      }
+  
+      .filterInput {
+        background: @mediumGrey;
+        width: 100%;
+      }
+  
+      .radio-button__input {
+        outline: none;
+      }
+    }
+  
+    #search-results {
+      top: 60px;
+      position: relative;
+    }
+  
+    #listContainer {
+      display: block;
+      position: relative;
+      // overflow-y: scroll;
+      padding-bottom: 200px;
+    }
+  
+    &.activeFilter {
+      #heroContainer {
+        height: 164px;
+      }
+    }
+  
+    .filter-container {
+      .list-divider {
+        border-bottom: 1px solid @lightGrey !important;
+        background-image: none !important;
+        font-size: 13px !important;
+      }
+      .active{
+        font-weight: 900;
+      }
+  
+      .search-input{
+        background-color: @white;
+        padding: 0px;
+      }
+  
+      .account-list {
+        background: @white !important;
+        background-image: none !important;
+      }
+  
+      .filter-container-desktop {
+        position: fixed !important;
+        top: 60px;
+        right: 0;
+        overflow: hidden !important;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 320px;
+      }
+  
+      .filter-container-native {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        overflow: hidden !important;
+      }
+    }
+  
+    #filter-container {
+      background-color: @white;
+      color: #25323d;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      z-index: 9;
+      border: 1px solid @mediumGrey;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+      margin: 0 auto;
+      max-width: 600px;
+      overflow: hidden;
+      font-size: 12px;
+  
+      .currency-input{
+        &.active{
+          font-weight: 900;
+        }
+      }
+  
+      .filter-body-container {
+        overflow-y: auto;
+        flex: 1 0;
+
+        .customDateBtn {
+            background-color: @white;
+            color: @lightBlack;
+            opacity: .7;
+            font-weight: 400;
+            height: 31px;
+            padding: 7px 0;
+            font-size: 13px;
+          
+            &.filter {
+              width: 100%;
+              text-align: left;
+              line-height: 1.8;
+            }
+          
+            &.active {
+              opacity: 1;
+              font-weight: 900;
+            }          
+        }
+      }
+  
+      .header-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        z-index: 2;
+        height: 52px;
+        background: white;
+        width: 100%;
+        border-bottom: 1px solid @lightGrey;
+  
+        .filter-header-button {
+          height: 36px;
+          min-width: 75px;
+  
+          background-color: transparent;
+          color: @primaryTileColor;
+  
+          font-size: 14px;
+          text-transform: capitalize;
+        }
+  
+        .filter-header {
+          font-family: inherit;
+          font-weight: bold;
+          font-size: 14px;
+          padding-top: 7px;
+          text-transform: uppercase;
+          margin: 0 40px 0 40px;
+        }
+      }
+  
+      .apply-filter-button {
+        height: 36px;
+  
+        background-color: @primaryTileColor;
+        color: @white;
+        display: flex;
+        justify-content: center;
+        margin: 12px;
+      }
+  
+      .button-container {
+        position: sticky;
+        flex-shrink: 1;
+        z-index: 2;
+        width: 100%;
+        background-color: white;
+        border-top: 1px solid @lightGrey;
+      }
+  
+      .filter-container-desktop {
+        width: 320px;
+      }
+  
+      .filter-container-native {
+        width: 100%;
+      }
+    }
+  
+  }

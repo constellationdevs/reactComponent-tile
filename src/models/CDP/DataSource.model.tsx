@@ -1,11 +1,12 @@
-export default class DataSourceModel {
+export class DataSourceModel {
 
     type: number;
     connectorName: string;
     connectorMethod: string;
     connectorVersion: string;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    params: any;
+    params: string;
     jsFunction: string;
 
 }
+
+export default DataSourceModel;

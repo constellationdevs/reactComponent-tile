@@ -7,11 +7,9 @@ export interface IHeaderTemplateIconProps {
     id: string;
     className: string;
     item: ListModel;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     methods?: any;
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 class HeaderTemplateIcon extends Component<IHeaderTemplateIconProps, any> {
     render() {
         return (

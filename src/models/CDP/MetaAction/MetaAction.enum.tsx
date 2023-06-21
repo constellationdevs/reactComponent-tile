@@ -5,8 +5,7 @@ export enum MetaActionsEnum{
     JsFunction = 4,
     FromLanding = 5,
     RequestFile = 6,
-    OpenTileModal = 7,
-    LoadJsonFile = 8
+    OpenTileModal = 7
 }
 
 export default MetaActionsEnum;

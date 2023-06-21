@@ -1,71 +1,112 @@
 //Basic Theme Settings
 //Fonts
 
+/** Ultra Light */
 @font-face {
-    font-family: "San Francisco";
-    font-weight: 400;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
 }
 
-@fontFamily: 'San Francisco', Helvetica, Arial, san-serif;
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+
+@fontFamily:'San Francisco', Helvetica, Arial, san-serif;
 @fontFamilyBackup: -apple-system, BlinkMacSystemFont, sans-serif;
 
 @h1FontSize: 32px;
-@h1LineHeight: 32px;
+@h1LineHeight:32px;
 
 @h2FontSize: 20px;
 @h2LineHeight: 20px;
 
 @subtitleFontSize: 12px;
-@subtitleAlternateFontSize: 13px;
-@subtitleAlternateColor: @mediumGrey;
-@subtitleLineHeight: 20px;
-@subtitleTextTransform: uppercase;
+@subtitleAlternateFontSize:13px;
+@subtitleAlternateColor:@darkGrey;
+@subtitleLineHeight:20px;
+@subtitleTextTransform:uppercase;
 
 @labelFontSize: 12px;
 @labelAlternateFontSize: 13px;
-@labelAlternateColor: @lightBlack;
-@labelColor: @mediumGrey;
+@labelAlternateColor:@lightBlack;
+@labelColor:@mediumGrey;
 @labelLineHeight: 20px;
 
-@cellTitleFontSize: 13px;
-@cellTitleColor: @mediumGrey;
-@cellTitleAlternateColor: @lightBlack;
-@cellTitleLetterSpacing: -.25px;
-@cellTitleLineHeight: 20px;
+@cellTitleFontSize:13px;
+@cellTitleColor:@mediumGrey;
+@cellTitleAlternateColor:@lightBlack;
+@cellTitleLetterSpacing:-.25px;
+@cellTitleLineHeight:20px;
 
 @cellSubTitleFontSize: 12px;
-@cellSubTitleLineHeight: 20px;
+@cellSubTitleLineHeight:20px;
 @cellSubTitleLetterSpacing: -.25px;
 @cellSubTitleColor: @lightBlack;
-@cellSubTitleAlternateColor: fade(@darkGrey, 50%);
+@cellSubTitleAlternateColor:fade(@darkGrey, 50%);
 
 //Brand Colors
-@primaryThemeColor: blue;
-@secondaryThemeColor: @blue;
-@tertiaryThemeColor: @mediumGrey;
+@primaryThemeColor:@purple;
+@secondaryThemeColor:@blue;
+@tertiaryThemeColor:@mediumGrey;
 
 //Gray Scale
-@lightBlack: #26323D;
-@darkGrey: #AAB1B8;
-@mediumGrey: #b4c3d2;
-@lightGrey: #DFE9F3;
+@lightBlack:#25323D;         /* slate */
+@darkGrey:#AAB1B8;          /* storm */
+@mediumGrey:#DFE9F3;       /* cloud */
+@lightGrey:#DFE9F3;       /* border */
+@white:#FFFFFF;
+@black: #000000;
 
-@white: #fff;
-@black: #000;
+@offTextColor:#B4C3D2;
+@lighterText:rgba(47, 47, 47, 0.5);
+
 
 
 //Additional Available Colors
 @yellowOrange: #F5BE50;
 @orange: #F09339;
 @orangeRed: #ED6F3B;
-@red: #D92C2C;
+@red:#D92C2C;
 @purpleRed: #9F2168;
 @purple: #89258F;
-@bluePurple: #5F6EB5;
+@bluePurple:#5F6EB5;
 @blue: #3F93D2;
-@greenBlue: #48A08C;
-@green: #55B948;
+@greenBlue:#48A08C;
+@green:#55B948;
 @yellowGreen: #BCD844;
 @yellow: #F2EE4F;
 
@@ -74,46 +115,46 @@
 
 //Container Colors
 @fontColor: @lightBlack;
-@subtextColor: @white;
+@subtextColor:@white;
 @headerFontColor: @lightBlack;
 @backgroundColor: @white;
 @invertColor: @lightBlack;
-@toolbarBackgroundColor: @lightBlack;
-@sectionBackgroundColor: @mediumGrey;
-@sectionTitleBackgroundColor: @darkGrey;
-@borderColor: transparent;
-@activeColor: @secondaryThemeColor;
-@alertColor: @red;
-@successColor: @green;
-@containerBackgroundColor: @lightBlack;
-@containerFontColor: @white;
+@toolbarBackgroundColor:@lightBlack;
+@sectionBackgroundColor:@mediumGrey;
+@sectionTitleBackgroundColor:@darkGrey;
+@borderColor:transparent;
+@activeColor:@secondaryThemeColor;
+@alertColor:@red;
+@successColor:@green;
+@containerBackgroundColor:@lightBlack;
+@containerFontColor:@white;
 @inactiveColor: @darkGrey;
 
 //highlight
 @highlightColor: fade(@primaryThemeColor, 50%);
-@highlightColorSecondary: fade(@secondaryThemeColor, 50%);
+@highlightColorSecondary:fade(@secondaryThemeColor, 50%);
 
 //buttons
-@callToActionButtonHeight: 42px;
-@callToActionButtonBackgroundColor: @primaryThemeColor;
-@callToActionButtonBorderRadius: 4px;
-@callToActionButtonFontColor: @white;
+@callToActionButtonHeight:42px;
+@callToActionButtonBackgroundColor:@primaryThemeColor;
+@callToActionButtonBorderRadius:4px;
+@callToActionButtonFontColor:@white;
 
-@secondaryCallToActionButtonHeight: 34px;
-@secondaryCallToActionButtonBackgroundColor: @highlightColorSecondary;
-@secondaryCallToActionButtonBorderRadius: 4px;
-@secondaryCallToActionButtonFontColor: @white;
+@secondaryCallToActionButtonHeight:34px;
+@secondaryCallToActionButtonBackgroundColor:@highlightColorSecondary;
+@secondaryCallToActionButtonBorderRadius:4px;
+@secondaryCallToActionButtonFontColor:@white;
 
 //Extra Advanced Theme
 //cards
-@cardBoxShadow: 0 1px 2px rgba(0, 0, 0, .12);
-@cardBorderRadius: 10px;
+@cardBoxShadow:0 0 1px 0 @lightBlack;
+@cardBorderRadius:10px;
 @cardListItemMargin: 0 16px;
-@cardIconBackgroundSize: 26px 26px;
+@cardIconBackgroundSize:26px 26px;
 @cardMargin: 15px;
 
 //ListItem
-@lightItemHeight: 60px;
+@lightItemHeight:60px;
 @listItemMargin: 0 20px;
 @listItemBorder: 1px solid bottom @lightGrey;
 
@@ -122,4 +163,5 @@
 
 
 //toolbar
-@toolbarHeight: 65px;
+@toolbarHeight:65px;
+

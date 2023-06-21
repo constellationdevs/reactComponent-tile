@@ -1,0 +1,30 @@
+[
+  {
+    "ConnectorName": "devCommunicationCenter",
+    "ConnectorMethod": "messagecenter",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/devCommunicationCenter/1.0/messagecenter"
+  },
+  {
+    "ConnectorName": "devCommunicationCenter",
+    "ConnectorMethod": "messagecenterlocal",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/devCommunicationCenter/1.0/messagecenterlocal"
+  },
+  {
+    "ConnectorName": "devCommunicationCenter",
+    "ConnectorMethod": "hero",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/devCommunicationCenter/1.0/hero"
+  },
+  {
+    "ConnectorName": "BasicConnectorTemplate",
+    "ConnectorMethod": "businessLogicMethod",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/BasicConnectorTemplate/1.0/businessLogicMethod"
+  }
+]

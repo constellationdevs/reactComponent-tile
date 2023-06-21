@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        
-        <script src="https://cdn.cdp.wiki/cdp_bundle.js"></script>
-        <link rel="stylesheet" href="https://cdn.cdp.wiki/cdp_defaultTheme.css" type="text/css" />
-        <script src="mocks/mock_container.js"></script>
-        <script src="tile.js"></script>
-        <link rel="stylesheet" href="tile.css" type="text/css" />
-        
-        <title>Template</title>
-        
-        <script type="text/javascript">
-          ons.disableAutoStyling();
-       
-          setTimeout(() => {            
-            container.tile.ui.showBody();
-          }, 500);
-        </script>
 
-      </head>
-    <body>
-        <noscript>
-            You need to enable JavaScript to run this app.
-          </noscript>
-        <div id="root"></div>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- DONT INCLUDE ON UPLOAD -->
+  <script src="https://cdn.cdp.wiki/cdp_bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.cdp.wiki/cdp_defaultTheme.css" type="text/css" />
+  <script src="tile.js"></script>
+  <link rel="stylesheet" href="tile.css" type="text/css" />
+  <script src="mock/mock_container.js"></script>
+  <!-- DONT INCLUDE ON UPLOAD -->
+  <script src="custom_console.js"></script>
+  <title>Template</title>
+  <script type="text/javascript">
+    ons.disableAutoStyling();
+    setTimeout(() => {
+      console.log("show body");
+      container.tile.ui.showBody();
+    }, 500);
+  </script>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+</body>
+
 </html>

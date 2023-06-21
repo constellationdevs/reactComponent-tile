@@ -1,22 +1,23 @@
-/** ************************************************************************ 
- * CONSOLE LOG Override 
+/** ************************************************************************
+ * CONSOLE LOG Override
  ***************************************************************************/
- const LogLevel = {
-    OFF: 0,
+
+const LogLevel = {
+    OFF: 99,
     INFO: 1,
     WARN: 2,
     ERROR: 3,
-
-}
-
-window.console = (function (origConsole) {
-
+  
+  }
+  
+  window.console = (function (origConsole) {
+  
     if (!window.console || !origConsole) {
         origConsole = {};
     }
     let configLevel = LogLevel["OFF"];
-
-
+  
+  
     return {
         log: function () {
             if (tile.tileConfig && tile.tileConfig.config) {
@@ -42,11 +43,11 @@ window.console = (function (origConsole) {
             }
             (localHost || configLevel <= 3) && origConsole.error && origConsole.error.apply(origConsole, arguments);
         },
-
-
+  
+  
     };
-
-}(window.console));
-/** ************************************************************************ 
- * END: CONSOLE LOG Override 
- ***************************************************************************/
+  
+  }(window.console));
+  /** ************************************************************************
+  * END: CONSOLE LOG Override
+  ***************************************************************************/
