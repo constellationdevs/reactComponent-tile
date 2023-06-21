@@ -1,0 +1,14 @@
+{
+    "openData":  {
+        "actionType": 3,
+        "component": "LandingPage",
+        "pageName": "LandingPage",
+        "openData": {
+            "componentID":"",
+            "data":{}
+        }
+    },
+    "config":{
+        "loglevel": "INFO"
+    }
+}

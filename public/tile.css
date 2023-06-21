@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+*::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #26323D !important;
+  font-weight: normal;
+  opacity: 0.7 !important;
+}
+*:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #26323D !important;
+  font-weight: normal;
+  opacity: 0.7 !important;
+}
+*::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #26323D !important;
+  font-weight: normal;
+  opacity: 0.7 !important;
+}
+.cdp_page_container .cdp_list_container > ons-list > * {
+  max-width: unset;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+*:focus {
+  outline: 0 none transparent !important;
+}
+.page__background {
+  background-color: #b4c3d2;
+}
+.cdp_page_container {
+  background-color: #DFE9F3;
+  overflow: scroll !important;
+  position: relative;
+}
+.cdp_page_container #secondaryContainer,
+.cdp_page_container .cdp_list_container {
+  width: 600px;
+  margin: 0 auto;
+}
+.cdp_page_container #secondaryContainer .list-item,
+.cdp_page_container .cdp_list_container .list-item {
+  min-height: 65px;
+}
+#errorPageContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+#errorPageContainer #errorMsg {
+  margin-top: 30%;
+  padding: 18px;
+  text-align: center;
+}
+#errorPageContainer #errorMsg span {
+  font-size: 21px;
+  font-weight: 300;
+  color: blue;
+}
+#errorPageContainer #errorMsg ons-icon {
+  font-size: 24px;
+  color: blue;
+}
