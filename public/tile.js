@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 var localHost = location.hostname === "localhost";
 
 var tile = {
