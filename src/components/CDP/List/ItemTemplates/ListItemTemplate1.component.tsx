@@ -22,41 +22,82 @@ class ListItemTemplate1 extends Component<IListItemTemplate1Props, IListItemTemp
   }
 
   render() {
+    const image = this.state.row.leftIcon;
     const itemKey: string = this.state.row.key;
-    return (
-      <ListItem
-        // @ts-ignore
-        role={!_.isEmpty(this.state.row.metaAction) ? "link" : null}
-        onKeyPress={handleKeyPress}
-        tabIndex={!_.isEmpty(this.state.row.metaAction) ? 0 : null}
-        key={itemKey}
-        onClick={() => this.props.handleOpen(this.state.row.metaAction)}
-        modifier={this.state.row.modifier}
-      >
-        <div className="left">
-          {this.state.row.leftIcon && (
-            <img className="list-item__thumbnail" src={this.state.row.leftIcon} />
-          )}
-          {this.state.row.leftIconClass && <Icon icon={this.state.row.leftIconClass} />}
-        </div>
-        <div className="center">
-          <span className="list-item__title">{this.state.row.title}</span>
-          <span className="cdp_key">{this.state.row.name}</span>
-          <span className="cdp_label">{this.state.row.label}</span>
-          {this.state.row.subTitle && <span className="list-item__subtitle">{this.state.row.subTitle}</span>}
-          {this.state.row.body}
-        </div>
-        <div className="right">
-          <span>{this.state.row.callout}</span>
-          <span>
-            <b>{this.state.row.calloutBold}</b>
-          </span>
-          <span><Icon icon={this.state.row.rightIconClass}></Icon></span>
-          <span className="cdp_value">{this.state.row.value}</span>
-        </div>
-      </ListItem>
-    );
+    if(image){
+      const url = image.replace(/&#x2F;/g, "/");
+      return (
+        <ListItem
+          // @ts-ignore
+          role={!_.isEmpty(this.state.row.metaAction) ? "link" : null}
+          onKeyPress={handleKeyPress}
+          tabIndex={!_.isEmpty(this.state.row.metaAction) ? 0 : null}
+          key={itemKey}
+          onClick={() => this.props.handleOpen(this.state.row.metaAction)}
+          modifier={this.state.row.modifier}
+        >
+          <div className="left">
+            {this.state.row.leftIcon && (
+              <img className="list-item__thumbnail" src={url} />
+            )}
+            {this.state.row.leftIconClass && <Icon icon={this.state.row.leftIconClass} />}
+          </div>
+          <div className="center">
+            <span className="list-item__title">{this.state.row.title}</span>
+            <span className="cdp_key">{this.state.row.name}</span>
+            <span className="cdp_label">{this.state.row.label}</span>
+            {this.state.row.subTitle && <span className="list-item__subtitle">{this.state.row.subTitle}</span>}
+            {this.state.row.body}
+          </div>
+          <div className="right">
+            <span>{this.state.row.callout}</span>
+            <span>
+              <b>{this.state.row.calloutBold}</b>
+            </span>
+            <span><Icon icon={this.state.row.rightIconClass}></Icon></span>
+            <span className="cdp_value">{this.state.row.value}</span>
+          </div>
+        </ListItem>
+      );
+    }
+    else{
+      return (
+        <ListItem
+          // @ts-ignore
+          role={!_.isEmpty(this.state.row.metaAction) ? "link" : null}
+          onKeyPress={handleKeyPress}
+          tabIndex={!_.isEmpty(this.state.row.metaAction) ? 0 : null}
+          key={itemKey}
+          onClick={() => this.props.handleOpen(this.state.row.metaAction)}
+          modifier={this.state.row.modifier}
+        >
+          <div className="left">
+            {this.state.row.leftIcon && (
+              <img className="list-item__thumbnail" src={this.state.row.leftIcon} />
+            )}
+            {this.state.row.leftIconClass && <Icon icon={this.state.row.leftIconClass} />}
+          </div>
+          <div className="center">
+            <span className="list-item__title">{this.state.row.title}</span>
+            <span className="cdp_key">{this.state.row.name}</span>
+            <span className="cdp_label">{this.state.row.label}</span>
+            {this.state.row.subTitle && <span className="list-item__subtitle">{this.state.row.subTitle}</span>}
+            {this.state.row.body}
+          </div>
+          <div className="right">
+            <span>{this.state.row.callout}</span>
+            <span>
+              <b>{this.state.row.calloutBold}</b>
+            </span>
+            <span><Icon icon={this.state.row.rightIconClass}></Icon></span>
+            <span className="cdp_value">{this.state.row.value}</span>
+          </div>
+        </ListItem>
+      );
+    }
+
   }
+
 }
 
 export default ListItemTemplate1;
