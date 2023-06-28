@@ -1,0 +1,327 @@
+{
+  "success": true,
+  "message": "",
+  "data": {
+    "List": {
+      "componentID": "ListSamplesListContainer",
+      "templateID": "listTemplate",
+      "data": {
+        "results": [
+          {
+            "headerTitle": "example - search control template",
+            "items": [
+              {
+                "templateID": 2,
+                "placeholder": "Search...",
+                "clearIconClass": "fa-times-circle"
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - secondary action template/aka",
+            "items": [
+              {
+                "templateID": 3,
+                "secondaryActions": [
+                  {
+                    "label": "notifications",
+                    "iconClass": "fa-bell",
+                    "notifications": 123,
+                    "metaAction": {}
+                  }
+                ]
+              },
+              {
+                "templateID": 3,
+                "secondaryActions": [
+                  {
+                    "label": "notifications",
+                    "iconClass": "fa-bell",
+                    "notifications": 123,
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "card controls",
+                    "iconClass": "fa-unlock",
+                    "notifications": "",
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "find atm",
+                    "iconClass": "md-zoom-in",
+                    "notifications": "",
+                    "metaAction": {}
+                  }
+                ]
+              },
+              {
+                "templateID": 3,
+                "secondaryActions": [
+                  {
+                    "label": "notifications",
+                    "iconClass": "fa-bell",
+                    "notifications": 123,
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "card controls",
+                    "iconClass": "fa-unlock",
+                    "notifications": "",
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "find atm",
+                    "iconClass": "md-zoom-in",
+                    "notifications": "",
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "notifications",
+                    "iconClass": "fa-bell",
+                    "notifications": 123,
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "card controls",
+                    "iconClass": "fa-unlock",
+                    "notifications": "",
+                    "metaAction": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - single primary buttons",
+            "items": [
+              {
+                "templateID": 3,
+                "primaryActions": [
+                  {
+                    "label": "Primary Button",
+                    "metaAction": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - two primary buttons",
+            "items": [
+              {
+                "templateID": 3,
+                "primaryActions": [
+                  {
+                    "label": "Primary Button 1",
+                    "metaAction": {}
+                  },
+                  {
+                    "label": "Primary Button 2",
+                    "metaAction": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 7, 2019 - thumbnails and titles",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/netflix.com",
+                "title": "Netflix",
+                "calloutBold": "$10.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/foodlion.com",
+                "title": "Food Lion",
+                "subTitle": "Monthly grocery run",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 6, 2019 - thumbnails and titles",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/target.com",
+                "title": "Target",
+                "calloutBold": "$24.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/kmart.com",
+                "title": "Kmart",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - notification",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/capitalone.com",
+                "title": "Fraud Alert",
+                "subTitle": "Last updated 2 days ago",
+                "calloutBold": "Processing",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - icon and paragraph",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIconClass": "fa-check-circle",
+                "body": "Helps you establish or rebuild a healthy credit score by allowing you to use your savings as collateral",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIconClass": "fa-check-circle",
+                "body": "Sign up for free fraud text alerts in Online Banking",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIconClass": "fa-check-circle",
+                "body": "Manage your account anytime through Online Banking and Mobile Banking",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - key value pairs",
+            "items": [
+              {
+                "templateID": 1,
+                "name": "purchase apr",
+                "value": "19.24%",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "name": "cash advance apr",
+                "value": "26.24%",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "name": "activity since last statement",
+                "value": "$0.00",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - take action (load page or tile)",
+            "items": [
+              {
+                "templateID": 1,
+                "modifier": "chevron",
+                "label": "Action - Open Page",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "modifier": "chevron",
+                "label": "Loan Status",
+                "calloutBold": "Processing",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "example - form 1 (label & value same line)",
+            "items": [
+              {
+                "templateID": 4,
+                "type": "money",
+                "inputID": "currentRate",
+                "label": "Rate",
+                "placeholder": "Current Rate"
+              },
+              {
+                "templateID": 4,
+                "type": "money",
+                "inputID": "currentBalance",
+                "label": "Balance",
+                "placeholder": "Current Balance"
+              },
+              {
+                "templateID": 4,
+                "type": "money",
+                "inputID": "monthsRemaining",
+                "label": "Time Remaining",
+                "placeholder": "Time Remaining"
+              },
+              {
+                "templateID": 4,
+                "type": "select",
+                "label": "Select Score Range",
+                "inputID": "creditScore",
+                "options": [
+                  {
+                    "value": ""
+                  },
+                  {
+                    "value": "Excellent",
+                    "label": "Excellent:Above 719"
+                  },
+                  {
+                    "value": "Very Good",
+                    "label": "Very Good:680-719"
+                  },
+                  {
+                    "value": "Good",
+                    "label": "Good:600-679"
+                  },
+                  {
+                    "value": "Fair",
+                    "label": "Fair:540-599"
+                  },
+                  {
+                    "value": "Poor",
+                    "label": "Poor:Below 540"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

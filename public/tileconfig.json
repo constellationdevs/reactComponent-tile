@@ -5,9 +5,9 @@
     "pageName": "dashboard",
     "openData": {
       "componentID": "dashboard",
-      "datasource": {
+      "dataSource": {
         "type": 1,
-        "connectorName": "devCommunicationCenter",
+        "connectorName": "CdpComponentModel",
         "connectorVersion": "1.0",
         "connectorMethod": "hero"
       }
