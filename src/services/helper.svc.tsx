@@ -13,7 +13,7 @@ import ConnectorActionModel from "../models/CDP/MetaAction/ConnectorAction.model
 import OpenTileActionModel from "../models/CDP/MetaAction/OpenTileAction.model";
 import RequestFileModel from "../models/CDP/MetaAction/RequestFile.model";
 
-import IContainerResponse from "../models/CDP/ContainerResponse.model";
+import IContainerResponse, { ContainerResponse } from "../models/CDP/ContainerResponse.model";
 
 import { container, tile } from "./container.svc";
 import DataSourceModel from "../models/CDP/DataSource.model";
@@ -49,7 +49,7 @@ const pageList = {
  */
 export function GetTileConfig(): Promise<any> {
   return new Promise((resolve, reject) => {
-    container.tile.data.loadJsonFile("tileconfig.json", (res: any) => {
+    container.tile.data.loadJsonFile("tileconfig.json", (res: ContainerResponse) => {
       const data = JSON.parse(JSON.stringify(res).replace(/&#x2F;/g, "/"));
       console.log(data);
       if (data.success) {
@@ -66,7 +66,7 @@ export function GetTileConfig(): Promise<any> {
  */
 export function GetContainerOpenData(): Promise<any> {
   return new Promise(hasData => {
-    container.tile.data.getOpenData((response: IContainerResponse) => {
+    container.tile.data.getOpenData((response: ContainerResponse) => {
       if (response.success && response.data && response.data.opendata) {
         hasData(response.data.opendata);
         // hasData(null);

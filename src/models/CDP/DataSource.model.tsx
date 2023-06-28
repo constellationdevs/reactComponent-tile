@@ -4,7 +4,7 @@ export class DataSourceModel {
     connectorName: string;
     connectorMethod: string;
     connectorVersion: string;
-    params: string;
+    params: any;
     jsFunction: string;
 
 }
