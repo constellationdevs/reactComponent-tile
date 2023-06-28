@@ -20,7 +20,7 @@ export interface ICommCenterState extends IBasePageStateModel {
 }
 
 class CommCenter extends Component<ICommCenterProps, ICommCenterState> {
-  pageClass: string = "desktop";
+  pageClass = "desktop";
 
   state = {
     componentModel: this.props.componentModel,

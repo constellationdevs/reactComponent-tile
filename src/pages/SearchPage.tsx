@@ -35,7 +35,7 @@ export interface ISearchState extends IBasePageStateModel {
 
 class SearchPage extends Component<ISearchProps, ISearchState> {
     public filterButtons: SearchFilterButtonModel[] = [];
-    private pageClass: string = "desktop";
+    private pageClass = "desktop";
     private placeholderSearch: any = { placeholder: getTileString("100111") };
 
     constructor(props: ISearchProps) {
@@ -215,7 +215,7 @@ class SearchPage extends Component<ISearchProps, ISearchState> {
 
     renderPills() {
         const pills = this.state.allFilters.map((pill: PillModel, idx: number) => {
-            let pillClass: string = "btnPill";
+            let pillClass = "btnPill";
             if (pill.active) {
                 pillClass += " active";
             }
@@ -262,6 +262,7 @@ class SearchPage extends Component<ISearchProps, ISearchState> {
         const filters: PillModel[] = this.state.allFilters;
         let newFilters: PillModel[];
 
+        // eslint-disable-next-line prefer-const
         newFilters = filters.filter((x: PillModel) => {
             if (x.parentID !== item.parentID) {
                 return x;
@@ -281,6 +282,7 @@ class SearchPage extends Component<ISearchProps, ISearchState> {
                 const removeIndex = this.state.filterObject[filterButton.keyName].map((filter: any) => filter.value).indexOf(item.keyValue);
                 (removeIndex >= 0) && this.state.filterObject[filterButton.keyName].splice(removeIndex, 1);
             } else {
+                // eslint-disable-next-line react/no-direct-mutation-state
                 this.state.filterObject[filterButton.keyName] = "";
             }
 
@@ -380,7 +382,7 @@ class SearchPage extends Component<ISearchProps, ISearchState> {
                 dataSource.params,
                 (response: ContainerResponse) => {
                     if (response.success) {
-                        const listData = this.state.ListModel;
+                        const listData: ListComponentModel = this.state.ListModel;
                         listData.data.results = response.data.results;
                         this.setState({ loading: false, ListModel: listData });
                         container.tile.ui.hideSpinner();

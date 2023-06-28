@@ -24,9 +24,9 @@ export interface IDashboardState extends IBasePageStateModel {
 }
 
 class Dashboard extends Component<IDashboardProps, IDashboardState> {
-  pageClass: string = "desktop";
-  lastScrollTop: number = 0;
-  heroHeight: number = 0;
+  pageClass = "desktop";
+  lastScrollTop = 0;
+  heroHeight = 0;
   pageContainer: any = createRef();
   listContainer: any = createRef();
 
@@ -73,7 +73,7 @@ class Dashboard extends Component<IDashboardProps, IDashboardState> {
   componentDidMount() {
     if (isNativeApp()) {
       this.pageClass = "native";
-    };
+    }
 
     this.pageInit();
     this.callLocalConnector();
@@ -144,7 +144,7 @@ class Dashboard extends Component<IDashboardProps, IDashboardState> {
 
   callLocalConnector = () => {
     container.connectors.sendRequest("BasicConnectorTemplate", "1.0", "businessLogicMethod", {}, (resp:any)=> {
-      console.log(resp);
+      console.log("right here" + resp);
     } );
   }
 }

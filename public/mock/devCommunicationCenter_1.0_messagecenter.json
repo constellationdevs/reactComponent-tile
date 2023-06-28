@@ -1,0 +1,295 @@
+{
+  "success": true,
+  "message": "",
+  "data": {
+    "results": [
+      {
+        "headerTitle": "unread",
+        "items": [
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          }
+        ]
+      },
+      {
+        "headerTitle": "read",
+        "items": [
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          }
+        ]
+      },
+      {
+        "headerTitle": "1/1/2019",
+        "items": [
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          }
+        ]
+      },
+      {
+        "headerTitle": "2/1/2019",
+        "items": [
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          },
+          {
+            "leftIcon":
+              "https://logo.clearbit.com/netflix.com",
+            "title": "Message title Here",
+            "subTitle":
+              "This is the subject line of the message...",
+            "callout": "Review",
+            "templateID": 1,
+            "metaAction": {}
+          }
+        ]
+      }
+    ],
+    "filters": [
+      {"keyName":"switchFilter","labelText":"Select From Account...","filterType":1,"iconUrl":"fromaccount.png","iconOverride":null,"selectedPrependText":"From ","multi":true,"filterTemplateItems":[{"icon":"internalaccount.png","display":"Option 1","value":"c5b1cda3-3fb4-4be8-81f8-cf00c4204f75","color":null},{"icon":"internalaccount.png","display":"Option 2","value":"b6c58cf2-e0df-48cf-9a8c-abc231a23598","color":null}]},
+      {"keyName":"amountGreaterThan","labelText":"Greater than","filterType":2,"iconUrl":"dollargreaterthan.png","iconOverride":null,"selectedPrependText":">$","multi":false,"filterTemplateItems":null},
+      {"keyName":"amountLessThan","labelText":"Less than","filterType":2,"iconUrl":"dollarlessthan.png","iconOverride":null,"selectedPrependText":"<$","multi":false,"filterTemplateItems":null},
+      {"keyName":"dateAfter","labelText":"Transfer date after...","filterType":3,"iconUrl":"calendargreaterthan.png","iconOverride":null,"selectedPrependText":">","multi":false,"filterTemplateItems":null},
+      {"keyName":"dateBefore","labelText":"Transfer date before...","filterType":3,"iconUrl":"calendarlessthan.png","iconOverride":null,"selectedPrependText":"<","multi":false,"filterTemplateItems":null},
+      {
+        "keyName": "radioFilter",
+        "labelText": "Radio Filter",
+        "filterType": 4,
+        "multi": false,
+        "iconUrl": "",
+        "iconOverride": "fa-paperclip",
+        "selectedPrependText": ""
+    },
+    {
+      "keyName": "category",
+      "labelText": "Select one",
+      "filterType": 5,
+      "iconUrl": "",
+      "iconOverride": "fa-th",
+      "selectedPrependText": "",
+      "multi": "false",
+      "filterTemplateItems": [
+        {
+          "icon": "",
+          "display": "Option 1",
+          "value": "option1",
+          "color": ""
+        },
+        {
+          "icon": "",
+          "display": "Option 2",
+          "value": "option2",
+          "color": ""
+        },
+        {
+          "icon": "",
+          "display": "Option 3",
+          "value": "option3",
+          "color": ""
+        },
+        {
+          "icon": "",
+          "display": "Option 4",
+          "value": "option4",
+          "color": ""
+        },
+        {
+          "icon": "",
+          "display": "Option 5",
+          "value": "option5",
+          "color": ""
+        }
+      ]
+    }
+    ]
+  }
+}
