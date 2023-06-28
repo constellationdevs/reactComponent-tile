@@ -103,7 +103,7 @@ class HeroProfile extends Component<IBasePropsModel, IHeroState> {
           </header>
           <section className="body">
             <div>
-              <img id="imgProfile" src={this.heroModel.data.profileImageURL.replace(/&#x2F;/g, "/")} />
+              <img id="imgProfile" src={this.heroModel.data.profileImageURL} />
             </div>
           </section>
           <footer className="primaryActions">

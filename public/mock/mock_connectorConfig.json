@@ -1,30 +1,30 @@
 [
   {
-    "ConnectorName": "CdpComponentModel",
-    "ConnectorMethod": "messagecenter",
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "aMethod",
     "ConnectorVersion": "1.0",
     "RequestMethod": "POST",
-    "ConnectorURL": "http://localhost:8080/externalConnector/CdpComponentModel/1.0/messagecenter"
+    "ConnectorURL": "http://localhost:3000/externalConnector/YourConnectorName/1.0/aMethod"
   },
   {
-    "ConnectorName": "CdpComponentModel",
-    "ConnectorMethod": "listSample",
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "bMethod",
     "ConnectorVersion": "1.0",
     "RequestMethod": "POST",
-    "ConnectorURL": "http://localhost:8080/externalConnector/CdpComponentModel/1.0/listSample"
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/bMethod"
   },
   {
-    "ConnectorName": "CdpComponentModel",
-    "ConnectorMethod": "hero",
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "cMethod",
     "ConnectorVersion": "1.0",
     "RequestMethod": "POST",
-    "ConnectorURL": "http://localhost:3000/externalConnector/CdpComponentModel/1.0/hero"
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/cMethod"
   },
   {
-    "ConnectorName": "BasicConnectorTemplate",
-    "ConnectorMethod": "businessLogicMethod",
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "dMethod",
     "ConnectorVersion": "1.0",
     "RequestMethod": "POST",
-    "ConnectorURL": "http://localhost:8080/externalConnector/BasicConnectorTemplate/1.0/businessLogicMethod"
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/dMethod"
   }
 ]

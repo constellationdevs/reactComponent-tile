@@ -18,8 +18,8 @@
               "componentID": "",
               "dataSource": {
                 "type": 1,
-                "connectorName": "CdpComponentModel",
-                "connectorMethod": "messagecenter",
+                "connectorName": "YourConnectorName",
+                "connectorMethod": "bMethod",
                 "connectorVersion": "1.0",
                 "params": {},
                 "callbackFunc": ""
@@ -46,9 +46,9 @@
                   "componentID": "",
                   "dataSource": {
                     "type": 1,
-                    "connectorName": "CdpComponentModel",
+                    "connectorName": "YourConnectorName",
                     "connectorVersion": "1.0",
-                    "connectorMethod": "listSample"
+                    "connectorMethod": "cMethod"
                   }
                 }
               }

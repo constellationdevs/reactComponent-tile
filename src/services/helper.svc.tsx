@@ -19,6 +19,7 @@ import { container, tile } from "./container.svc";
 import DataSourceModel from "../models/CDP/DataSource.model";
 import DataSourceTypeEnum from "../models/CDP/DataSourceType.enum";
 import { Navigator } from "react-onsenui";
+import he from "he";
 
 /* check if we are testing / running locally
  */
@@ -167,7 +168,7 @@ export function ProcessCDPComponent(model: any): Promise<any> {
               (response: any) => {
                 console.log(response);
                 if (response.success) {
-                  model.data = response.data;
+                  model.data = JSON.parse(he.decode(JSON.stringify(response.data)));
                   resolve(model);
                 } else {
                   reject();

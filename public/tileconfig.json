@@ -7,9 +7,9 @@
       "componentID": "dashboard",
       "dataSource": {
         "type": 1,
-        "connectorName": "CdpComponentModel",
+        "connectorName": "YourConnectorName",
         "connectorVersion": "1.0",
-        "connectorMethod": "hero"
+        "connectorMethod": "aMethod"
       }
     }
   },
