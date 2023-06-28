@@ -15,7 +15,7 @@ perl -pi -e 's/\<script src=\"https:\/\/cdn.cdp.wiki\/cdp_bundle.js\"\>\<\/scrip
 perl -pi -e 's/\<script src=\"tile.js"\>\<\/script\>//' dist/index.html
 perl -pi -e 's/\<link rel=\"stylesheet\" href=\"https:\/\/cdn.cdp.wiki\/cdp_defaultTheme.css.*\"\/>//' dist/index.html
 perl -pi -e 's/\<link rel=\"stylesheet\" href=\"tile.css\"\/>//' dist/index.html
-perl -pi -e 's/\<script src=\"mocks\/mock_container.js"\>\<\/script\>//' dist/index.html
+perl -pi -e 's/\<script src=\"mock\/mock_container.js"\>\<\/script\>//' dist/index.html
 
 
 rm -f dist/*.css

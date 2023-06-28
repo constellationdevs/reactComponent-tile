@@ -27,7 +27,7 @@ container.connectors.sendRequest = (
     console.log("CALL LOCAL CONNECTOR")
     callLocalConnector(connectorName, connectorMethod, connectorVersion, params, callbackFunc)
   } else {
-    const source = "mocks/" + connectorName + "_" + connectorVersion + "_" + connectorMethod + ".json";
+    const source = "mock/" + connectorName + "_" + connectorVersion + "_" + connectorMethod + ".json";
     container.tile.data.loadJsonFile(source,(fileData) => {
       console.log(fileData)
       response.success = fileData.data.filecontent.success;
@@ -39,7 +39,7 @@ container.connectors.sendRequest = (
 
 const callLocalConnector = (connname, connmethod, connversion, requestParams, callbackFunc) => {
     // load connector config json file
-    container.tile.data.loadJsonFile("mocks/mock_connectorConfig.json", (res) => {
+    container.tile.data.loadJsonFile("mock/mock_connectorConfig.json", (res) => {
       const data = JSON.parse(JSON.stringify(res).replace(/&#x2F;/g, "/"));
       if (res.success) {
         console.log(data.data.filecontent);

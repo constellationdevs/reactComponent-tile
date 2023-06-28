@@ -18,7 +18,7 @@
     "ConnectorMethod": "hero",
     "ConnectorVersion": "1.0",
     "RequestMethod": "POST",
-    "ConnectorURL": "http://localhost:8080/externalConnector/devCommunicationCenter/1.0/hero"
+    "ConnectorURL": "http://localhost:3000/externalConnector/devCommunicationCenter/1.0/hero"
   },
   {
     "ConnectorName": "BasicConnectorTemplate",
