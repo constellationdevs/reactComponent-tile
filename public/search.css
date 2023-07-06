@@ -1,0 +1,392 @@
+/** Ultra Light */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+/** Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+/* slate */
+/* storm */
+/* cloud */
+/* border */
+#SearchPage .cdp_page_container {
+  position: static;
+}
+#SearchPage .cdp_page_container.filter-open {
+  overflow: hidden !important;
+}
+#SearchPage .filter-mask {
+  background-color: #AAB1B8;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  position: fixed;
+  z-index: 1;
+}
+#SearchPage #SearchHeroContainer {
+  min-height: 60px;
+  background-color: #FFFFFF;
+  z-index: 9;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: block;
+  margin: auto;
+}
+#SearchPage #SearchHeroContainer .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+}
+#SearchPage #SearchHeroContainer .search-toolbar {
+  max-width: 600px;
+}
+#SearchPage #SearchHeroContainer .search-toolbar .remove-search-text {
+  position: absolute;
+  right: 24px;
+  color: rgba(38, 50, 61, 0.3);
+  font-size: 18px;
+  z-index: 1;
+  height: 20px;
+  width: 13px;
+}
+#SearchPage #SearchHeroContainer .search-toolbar .remove-search-text .remove-search-text-icon {
+  align-items: center;
+  display: inline-flex;
+  height: 20px;
+  justify-content: center;
+  padding: 1px 0 0 1px;
+  width: 20px;
+  color: rgba(37, 50, 61, 0.5);
+}
+#SearchPage #SearchHeroContainer .search-toolbar .remove-search-text .remove-search-text-icon.background {
+  color: #FFFFFF;
+}
+#SearchPage #SearchHeroContainer .search-toolbar .remove-search-text .remove-search-text-icon:focus {
+  box-shadow: 0 0 0 2px #3F93D2;
+  border-radius: 3px;
+  z-index: 1;
+}
+#SearchPage #SearchHeroContainer .search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 80px;
+  margin: 0 8px;
+  color: #FFFFFF;
+  background-color: #25323D;
+}
+#SearchPage #SearchHeroContainer .filter-button {
+  height: 36px;
+  width: 36px;
+  margin: 0;
+  border: 1px solid #25323D;
+  flex: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#SearchPage #SearchHeroContainer .filter-button ons-icon {
+  font-size: 22px;
+  color: #25323D;
+}
+#SearchPage #SearchHeroContainer .filter-button.active {
+  background-color: #25323D;
+}
+#SearchPage #SearchHeroContainer .filter-button.active ons-icon {
+  color: #FFFFFF;
+}
+#SearchPage #SearchHeroContainer .search-toolbar ons-search-input {
+  background-color: rgba(170, 177, 184, 0.3);
+  border-radius: 4px;
+}
+#SearchPage #SearchHeroContainer .search-toolbar ons-search-input .search-input {
+  font-size: 16px;
+  width: 88%;
+  height: 36px !important;
+  padding: 0 9px !important;
+  background-color: transparent;
+}
+#SearchPage #SearchHeroContainer .search-toolbar ons-search-input .search-input ons-button:focus {
+  box-shadow: 0 0 0 2px #3F93D2;
+  border-radius: 8px;
+}
+#SearchPage #SearchHeroContainer #filterBarContainer {
+  text-align: center;
+  padding: 9px;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: #DFE9F3;
+}
+#SearchPage #SearchHeroContainer #filterBarContainer ons-button {
+  background-color: #FFFFFF;
+  color: #25323D;
+  margin: 0 6px;
+  height: 32px;
+  padding-top: 0;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#SearchPage #SearchHeroContainer #filterBarContainer ons-button img {
+  width: 22px;
+}
+#SearchPage #SearchHeroContainer #filterBarContainer ons-button ons-icon {
+  font-size: 22px;
+}
+#SearchPage #SearchHeroContainer #filterBarContainer ons-button.selected {
+  background-color: #25323D;
+  color: #FFFFFF;
+}
+#SearchPage #SearchHeroContainer #filterBarContainer ons-button.selected ons-icon {
+  color: #FFFFFF;
+}
+#SearchPage #SearchHeroContainer #pillContainer {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: normal;
+  padding: 0px 18px 12px 18px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  max-width: 600px;
+}
+#SearchPage #SearchHeroContainer #pillContainer ons-button {
+  background-color: #25323D;
+  border: none;
+  color: #FFFFFF;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  border-radius: 16px;
+  height: auto;
+  font-size: 10px;
+  font-weight: bold;
+}
+#SearchPage #SearchHeroContainer #pillContainer ons-button .fa-stack {
+  font-size: 15px;
+  width: 22px;
+}
+#SearchPage #SearchHeroContainer #pillContainer ons-button .fa-stack .remove-pill {
+  padding-left: 10px;
+  color: rgba(37, 50, 61, 0.5);
+}
+#SearchPage #SearchHeroContainer #pillContainer ons-button .fa-stack .remove-pill.background {
+  color: #FFFFFF;
+}
+#SearchPage .filterSelectionContainer {
+  margin: auto;
+  max-width: 600px;
+  background-color: #AAB1B8;
+  color: #25323D;
+  padding: 18px;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#SearchPage .filterSelectionContainer label {
+  display: block;
+}
+#SearchPage .filterSelectionContainer .inputContainer {
+  padding-bottom: 18px;
+}
+#SearchPage .filterSelectionContainer .inputContainer .react-datepicker-wrapper {
+  width: 100%;
+}
+#SearchPage .filterSelectionContainer .inputContainer .react-datepicker-wrapper .react-datepicker__input-container {
+  width: 100%;
+}
+#SearchPage .filterSelectionContainer .inputContainer .react-datepicker-wrapper .react-datepicker__input-container input {
+  background: #DFE9F3;
+  width: 100%;
+}
+#SearchPage .filterSelectionContainer .btnAction {
+  width: 48%;
+  background-color: #25323D;
+}
+#SearchPage .filterSelectionContainer .btnAction:nth-last-child(1) {
+  margin-left: 9px;
+  float: right;
+}
+#SearchPage .filterSelectionContainer .btnAction:only-of-type {
+  width: 100%;
+  margin: 0;
+  float: none;
+}
+#SearchPage .filterSelectionContainer .filterInput {
+  background: #DFE9F3;
+  width: 100%;
+}
+#SearchPage .filterSelectionContainer .radio-button__input {
+  outline: none;
+}
+#SearchPage #search-results {
+  top: 60px;
+  position: relative;
+}
+#SearchPage #listContainer {
+  display: block;
+  position: relative;
+  padding-bottom: 200px;
+}
+#SearchPage.activeFilter #heroContainer {
+  height: 164px;
+}
+#SearchPage .filter-container .list-divider {
+  border-bottom: 1px solid #DFE9F3 !important;
+  background-image: none !important;
+  font-size: 13px !important;
+}
+#SearchPage .filter-container .active {
+  font-weight: 900;
+}
+#SearchPage .filter-container .search-input {
+  background-color: #FFFFFF;
+  padding: 0px;
+}
+#SearchPage .filter-container .account-list {
+  background: #FFFFFF !important;
+  background-image: none !important;
+}
+#SearchPage .filter-container .filter-container-desktop {
+  position: fixed !important;
+  top: 60px;
+  right: 0;
+  overflow: hidden !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 320px;
+}
+#SearchPage .filter-container .filter-container-native {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  overflow: hidden !important;
+}
+#SearchPage #filter-container {
+  background-color: #FFFFFF;
+  color: #25323d;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  z-index: 9;
+  border: 1px solid #DFE9F3;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 600px;
+  overflow: hidden;
+  font-size: 12px;
+}
+#SearchPage #filter-container .currency-input.active {
+  font-weight: 900;
+}
+#SearchPage #filter-container .filter-body-container {
+  overflow-y: auto;
+  flex: 1 0;
+}
+#SearchPage #filter-container .filter-body-container .customDateBtn {
+  background-color: #FFFFFF;
+  color: #25323D;
+  opacity: 0.7;
+  font-weight: 400;
+  height: 31px;
+  padding: 7px 0;
+  font-size: 13px;
+}
+#SearchPage #filter-container .filter-body-container .customDateBtn.filter {
+  width: 100%;
+  text-align: left;
+  line-height: 1.8;
+}
+#SearchPage #filter-container .filter-body-container .customDateBtn.active {
+  opacity: 1;
+  font-weight: 900;
+}
+#SearchPage #filter-container .header-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  z-index: 2;
+  height: 52px;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #DFE9F3;
+}
+#SearchPage #filter-container .header-container .filter-header-button {
+  height: 36px;
+  min-width: 75px;
+  background-color: transparent;
+  color: #25323D;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+#SearchPage #filter-container .header-container .filter-header {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 7px;
+  text-transform: uppercase;
+  margin: 0 40px 0 40px;
+}
+#SearchPage #filter-container .apply-filter-button {
+  height: 36px;
+  background-color: #25323D;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+#SearchPage #filter-container .button-container {
+  position: sticky;
+  flex-shrink: 1;
+  z-index: 2;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #DFE9F3;
+}
+#SearchPage #filter-container .filter-container-desktop {
+  width: 320px;
+}
+#SearchPage #filter-container .filter-container-native {
+  width: 100%;
+}

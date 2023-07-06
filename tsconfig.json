@@ -30,6 +30,9 @@
         "jest",
         "src/setupTests.ts",
         "public",
-        "HOLD"    
-      ]
+        "HOLD"
+      ],
+     "ts-node": {
+      "require": ["tsconfig-paths/register"]
+    }
 }

@@ -1,0 +1,284 @@
+{
+  "success": true,
+  "message": "",
+  "data": {
+    "Hero": {
+      "componentID": "Hero",
+      "templateID": 1,
+      "data": {
+        "btnSetting": {
+          "componentID": "BtnSettings",
+          "iconClass": "fa-cog",
+          "metaAction": {
+            "actionType": 3,
+            "pageName": "commCenter",
+            "component": "CommCenter",
+            "pageTitle": "Communication Center",
+            "openData": {
+              "componentID": "",
+              "dataSource": {
+                "type": 1,
+                "connectorName": "YourConnectorName",
+                "connectorMethod": "bMethod",
+                "connectorVersion": "1.0",
+                "params": {},
+                "callbackFunc": ""
+              }
+            }
+          }
+        },
+        "heading": "This is a Heading",
+        "headerCallOut": "THIS IS CALL OUT TEXT",
+        "bodyCallOut": "This is text that will live in the body of the hero section.",
+        "iconClass": "fa-file",
+        "primaryActions": {
+          "componentID": "heroActions",
+          "data": [
+            {
+              "componentID": "",
+              "label": "Action 1",
+              "metaAction": {
+                "actionType": 3,
+                "component": "ListSamples",
+                "pageName": "listSamples",
+                "pageTitle": "List Samples",
+                "openData": {
+                  "componentID": "",
+                  "dataSource": {
+                    "type": 1,
+                    "connectorName": "YourConnectorName",
+                    "connectorVersion": "1.0",
+                    "connectorMethod": "cMethod"
+                  }
+                }
+              }
+            },
+            {
+              "componentID": "",
+              "label": "Action 2",
+              "metaAction": {
+                "pageName": "missing data in tileConfig"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "List": {
+      "componentID": "DashboardListContainer",
+      "templateID": "listTemplate",
+      "data": {
+        "results": [
+          {
+            "headerTitle": "example - search control template",
+            "items": [
+              {
+                "templateID": 2,
+                "placeholder": "Search...",
+                "clearIconClass": "fa-times-circle"
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 7, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/netflix.com",
+                "title": "Netflix",
+                "calloutBold": "$10.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/foodlion.com",
+                "title": "Food Lion",
+                "subTitle": "Monthly grocery run",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 6, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/target.com",
+                "title": "Target",
+                "calloutBold": "$24.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/kmart.com",
+                "title": "Kmart",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 5, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/netflix.com",
+                "title": "Netflix",
+                "calloutBold": "$10.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/foodlion.com",
+                "title": "Food Lion",
+                "subTitle": "Monthly grocery run",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 4, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/target.com",
+                "title": "Target",
+                "calloutBold": "$24.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/kmart.com",
+                "title": "Kmart",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 3, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/netflix.com",
+                "title": "Netflix",
+                "calloutBold": "$10.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/foodlion.com",
+                "title": "Food Lion",
+                "subTitle": "Monthly grocery run",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          },
+          {
+            "headerTitle": "mar 2, 2019",
+            "items": [
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/target.com",
+                "title": "Target",
+                "calloutBold": "$24.49",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/kmart.com",
+                "title": "Kmart",
+                "calloutBold": "$87.54",
+                "metaAction": {}
+              },
+              {
+                "templateID": 1,
+                "leftIcon": "https://logo.clearbit.com/amazon.com",
+                "title": "Amazon",
+                "subTitle": "Feeding my addiction",
+                "calloutBold": "$149.99",
+                "metaAction": {}
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "BottomBar": {
+      "componentID": "DashboardBottomBarContainer",
+      "templateID": "bottomBarTemplate",
+      "data": {
+        "callOut": "$220.71 total, $27,589.00 average",
+        "iconClass": "ion-ios-download-outline",
+        "metaAction": {}
+      }
+    }
+  }
+}

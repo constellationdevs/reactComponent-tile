@@ -1,14 +1,19 @@
 {
-    "openData":  {
-        "actionType": 3,
-        "component": "LandingPage",
-        "pageName": "LandingPage",
-        "openData": {
-            "componentID":"",
-            "data":{}
-        }
-    },
-    "config":{
-        "loglevel": "INFO"
+  "openData": {
+    "actionType": 3,
+    "component": "Dashboard",
+    "pageName": "dashboard",
+    "openData": {
+      "componentID": "dashboard",
+      "dataSource": {
+        "type": 1,
+        "connectorName": "YourConnectorName",
+        "connectorVersion": "1.0",
+        "connectorMethod": "aMethod"
+      }
     }
+  },
+  "config": {
+    "loglevel": "INFO"
+  }
 }

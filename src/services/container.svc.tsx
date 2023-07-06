@@ -1,8 +1,14 @@
-// get a reference to the container object injected by the platform
-// @ts-ignore
-export const container = window.container;
+/* THIS FILE IS USED FOR 2 THINGS. 
+  1. SET THE CONTAINER OBJECT
+  2. SET THE TILE OBJECT
+ ************************************************************************************************************************/
 
-// get a reference to the tile object
-// @ts-ignore
-export const tile = window.tile;
-
+    
+    // @ts-ignore
+    export const container = window.container; // find the container api for global use
+    // @ts-ignore
+    export const tile = window.tile; // find the tile.js for global use
+    
+    
+    export default container;
+    

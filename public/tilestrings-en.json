@@ -1,6 +1,91 @@
 [
     {
-        "code": "100100",
-        "string": "template"
+        "code": "100105",
+        "string": "Done"
+    },
+    {
+        "code": "100106",
+        "string": "Ok"
+    },
+    {
+        "code": "100107",
+        "string": "Cancel"
+    },
+    {
+        "code": "100108",
+        "string": "Searching..."
+    },
+    {
+        "code": "100109",
+        "string": "Greater Than"
+    },
+    {
+        "code": "100110",
+        "string": "Less Than"
+    },
+    {
+        "code": "100111",
+        "string": "Search..."
+    },
+    {
+        "code": "100112",
+        "string": "Date before"
+    },
+    {
+        "code": "100113",
+        "string": "Date after"
+    },
+    
+    {
+        "code": "100114",
+        "string": "Search"
+    },
+    {
+        "code": "100115",
+        "string": "Filter"
+    },
+    {
+        "code": "100116",
+        "string": "Clear All"
+    },
+    {
+        "code": "100117",
+        "string": "Apply"
+    },
+    {
+        "code": "100118",
+        "string": "Radio Filter"
+    },
+    {
+        "code": "100127",
+        "string": "Filter"
+    },
+    {
+        "code": "100128",
+        "string": "Date Filter"
+    },
+    {
+        "code": "100129",
+        "string": "Amount Filter"
+    },
+    {
+        "code": "100130",
+        "string": "Switch Filter"
+    },
+    {
+        "code": "100131",
+        "string": "Select Filter"
+    },
+    {
+        "code": "100133",
+        "string": "Select an option"
+    },
+    {
+        "code": "100134",
+        "string": "Radio: Option 1"
+    },
+    {
+        "code": "100135",
+        "string": "Radio: Option 2"
     }
 ]

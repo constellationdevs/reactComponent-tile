@@ -1,0 +1,30 @@
+[
+  {
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "aMethod",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:3000/externalConnector/YourConnectorName/1.0/aMethod"
+  },
+  {
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "bMethod",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/bMethod"
+  },
+  {
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "cMethod",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/cMethod"
+  },
+  {
+    "ConnectorName": "YourConnectorName",
+    "ConnectorMethod": "dMethod",
+    "ConnectorVersion": "1.0",
+    "RequestMethod": "POST",
+    "ConnectorURL": "http://localhost:8080/externalConnector/YourConnectorName/1.0/dMethod"
+  }
+]
